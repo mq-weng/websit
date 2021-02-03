@@ -66,7 +66,7 @@ export default {
   },
   methods: {
     getData() {
-      console.log('看起来的毫不费力，是拼了命的努力呀');
+      // console.log('看起来的毫不费力，是拼了命的努力呀');
       this.$http({
         url: "/blogs/list",
       }).then((res) => {

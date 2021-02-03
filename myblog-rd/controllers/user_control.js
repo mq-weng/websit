@@ -1,5 +1,5 @@
-const userModels = require('../../../../myBlog/myblog-rd/models/user_models');
-const creatAuth = require('../../../../myBlog/myblog-rd/auth');
+const userModels = require('../models/user_models');
+const creatAuth = require("../auth");
 
 module.exports = {
   //用户登录
